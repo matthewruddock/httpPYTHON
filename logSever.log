@@ -1,0 +1,4 @@
+03/09/2022 10:59:50 AM - serverLogger - ERROR - error message
+03/09/2022 10:59:50 AM - serverLogger - CRITICAL - critical message
+03/09/2022 11:00:41 AM - serverLogger - ERROR - error message
+03/09/2022 11:00:41 AM - serverLogger - CRITICAL - critical message
