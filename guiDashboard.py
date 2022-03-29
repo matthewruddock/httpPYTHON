@@ -1,9 +1,8 @@
 from tkinter import*
 from tkinter import messagebox #import messagebox libraryr
 from tkinter import ttk
-import time
+import time, sys, multiprocessing, subprocess
 import proxyServer as ps
-import multiprocessing
 
 
 def main():
@@ -52,7 +51,7 @@ def main():
     menubar.add_cascade(label="File", menu=fileMenu)
 
     fileMenu.add_command(label="Info",command=infoMenu, image=infoImage, compound='right')
-    fileMenu.add_command(label="Exit ", command=quit, image=exitImage, compound='right')
+    fileMenu.add_command(label="Exit ", command=sys.exit, image=exitImage, compound='right')
 
 
 
@@ -146,16 +145,13 @@ def main():
 ###### COMMANDS ######
 def startServer():
         global serverFlag 
-
         serverFlag = 1
 
         messagebox.showwarning(title='Server Status', message='Server has Started')
-        
-        process1 = multiprocessing.Process(target=ps.Server)
-        #process2 = multiprocessing.Process(target=netowrkTrafficData)
 
+        process1 = multiprocessing.Process(target=ps.Server)
         process1.start()
-        #process2.start()
+
 
 def stopServer():
         global serverFlag
@@ -184,7 +180,7 @@ def enableBlacklistIP():
             for index in ip:
                 print(index)
                 with open("httpPYTHON\\log\\blacklistIP.txt","a") as blacklistFile:
-                    blacklistFile.write(index)
+                    blacklistFile.writelines(index+"\n")
 
             messagebox.showwarning(title='Blacklist Status', message='Blacklist IP Filter has been Updated')
 
@@ -237,7 +233,6 @@ def enableBlacklistIP():
             for ip in blacklistFile.readlines():
                 print(ip)
                 blacklistFilter_listbox.insert(END,ip)
-
         finally:
             blacklistFile.close()
 
@@ -277,7 +272,7 @@ def enableBlacklistURL():
             for index in websites:
                 print(index)
                 with open("httpPYTHON\\log\\blacklistURL.txt","a") as blacklistFile:
-                    blacklistFile.write(index)
+                    blacklistFile.writelines(index+"\n")
 
             messagebox.showwarning(title='Blacklist Status', message='Blacklist URL filter has been Updated')
 

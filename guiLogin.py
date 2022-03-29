@@ -1,6 +1,7 @@
 from tkinter import*
 from tkinter import messagebox #import messagebox library
 import guiDashboard as db
+import sys
 
 ######FUNCTIONS######
 def submitLogin():
@@ -18,6 +19,8 @@ def event_submitLogin(event):
     if(username=="admin")and (password=="ASPIRE22"):
         loginWindow.destroy()
         db.main()
+        sys.exit()
+        
     else:
         messagebox.showerror(title='ERROR', message='Incorrect Username/Password Entered\n\n Please Try Again')
 
@@ -42,7 +45,6 @@ exitImage = PhotoImage(file="httpPYTHON\\imgs\\exit.png")
 programImage = PhotoImage(file="httpPYTHON\\imgs\\server.png")
 
 
-
 ######MENU BAR######
 menubar = Menu(loginWindow)  #Creates a Menubar
 loginWindow.config(menu=menubar) #Add menubar to the window
@@ -53,8 +55,6 @@ menubar.add_cascade(label="File", menu=fileMenu)
 
 fileMenu.add_command(label="Info",command=infoMenu, image=infoImage, compound='right')
 fileMenu.add_command(label="Exit ", command=quit, image=exitImage, compound='right')
-
-
 
 
 
@@ -80,8 +80,6 @@ pwdLabel = Label(
 pwdLabel.place(x=100,y=190) #place label at an pixel axis
 
 
-
-
 ######ENTRY######
 userEntry = Entry(loginWindow,
                 font=("Arial",14),
@@ -102,20 +100,11 @@ pwdEntry.insert(0,'password') #Set Default string in entry window
 pwdEntry.place(x=200,y=190)
 
 
-
-
-
 ######BUTTONS######
 submit_button = Button(loginWindow, text="SUBMIT", command=submitLogin,font=("Arial",14),bg="blue",fg="white",activeforeground="black", activebackground="white",)
 submit_button.place(x=200,y=240)
 
 loginWindow.bind("<Return>",event_submitLogin) #allows the Enter key to Submit Login
-
-
-
-
-
-
 
 loginWindow.mainloop() #place window on computer screen, listen for events
 

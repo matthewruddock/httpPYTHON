@@ -2507,3 +2507,116 @@ Starting Server
 
 
 [2022-03-29 09:26:12]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 09:39:21]   
+
+Starting Server
+
+
+[2022-03-29 09:39:21]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 09:39:23]   
+
+Starting Server
+
+
+[2022-03-29 09:39:23]   Error: Cannot start listening...
+[2022-03-29 09:39:23]   Stopping Server
+[2022-03-29 09:39:58]   
+
+Starting Server
+
+
+[2022-03-29 09:39:58]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 09:40:03]   Request received from: 127.0.0.1 at port: 60017
+[2022-03-29 09:40:03]   HTTP Connection request
+[2022-03-29 09:40:03]  Forwarding request from 127.0.0.1 to host...b'ocsp.digicert.com'
+[2022-03-29 09:40:03]  Error: forward request...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 09:40:07]   Request received from: 127.0.0.1 at port: 60029
+[2022-03-29 09:40:07]   Request received from: 127.0.0.1 at port: 60030
+[2022-03-29 09:40:07]   HTTP Connection request
+[2022-03-29 09:40:07]  Forwarding request from 127.0.0.1 to host...b'ocsp.digicert.com'
+st.com'
+[2022-03-29 09:40:07]  Error: forward request...[Errno 2] No such file or directory: b'cache/_ocsp_sca1b_amazontrust_com'
+[2022-03-29 09:49:15]   
+
+Starting Server
+
+
+[2022-03-29 09:49:15]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 09:49:31]   Request received from: 127.0.0.1 at port: 60461
+[2022-03-29 09:49:31]   HTTP Connection request
+[2022-03-29 09:49:31]  Forwarding request from 127.0.0.1 to host...b'ocsp.sca1b.amazontrust.com'
+[2022-03-29 09:49:31]  Error: forward request...[Errno 2] No such file or directory: b'cache/_ocsp_sca1b_amazontrust_com'
+[2022-03-29 09:52:19]   
+
+Starting Server
+
+
+[2022-03-29 09:52:19]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 09:55:38]   Request received from: 127.0.0.1 at port: 60681
+[2022-03-29 09:55:38]   HTTPS Connection request
+[2022-03-29 09:55:39]  HTTPS Connection Established
+[2022-03-29 09:55:39]   Request received from: 127.0.0.1 at port: 60683
+[2022-03-29 09:55:39]   HTTP Connection request
+[2022-03-29 09:55:39]  Forwarding request from 127.0.0.1 to host...b'ocsp.digicert.com'
+[2022-03-29 09:55:39]  Error: forward request...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 10:03:44]   
+
+Starting Server
+
+
+[2022-03-29 10:03:44]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 10:06:14]   Request received from: 127.0.0.1 at port: 61088
+[2022-03-29 10:06:14]   HTTPS Connection request
+[2022-03-29 10:06:14]  HTTPS Connection Established
+[2022-03-29 10:06:14]   Request received from: 127.0.0.1 at port: 61090
+[2022-03-29 10:06:14]   HTTP Connection request
+[2022-03-29 10:06:14]  Forwarding request from 127.0.0.1 to host...b'ocsp.digicert.com'
+[2022-03-29 10:06:15]  Error: forward request...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 10:08:47]   
+
+Starting Server
+
+
+[2022-03-29 10:08:47]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 10:09:03]   Request received from: 127.0.0.1 at port: 61346
+[2022-03-29 10:09:03]   HTTPS Connection request
+[2022-03-29 10:09:03]  HTTPS Connection Established
+[2022-03-29 10:09:03]   Request received from: 127.0.0.1 at port: 61349
+[2022-03-29 10:09:03]   HTTP Connection request
+[2022-03-29 10:09:03]  Forwarding request from 127.0.0.1 to host...b'ocsp.digicert.com'
+[2022-03-29 10:12:31]   
+
+Starting Server
+
+
+[2022-03-29 10:12:31]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 10:20:33]   
+
+Starting Server
+
+
+[2022-03-29 10:20:33]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 10:21:16]   
+
+Starting Server
+
+
+[2022-03-29 10:21:16]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 10:23:01]   
+
+Starting Server
+
+
+[2022-03-29 10:23:01]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 10:25:41]   
+
+Starting Server
+
+
+[2022-03-29 10:25:41]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 10:28:10]   
+
+Starting Server
+
+
+[2022-03-29 10:28:10]   Initializing Sockets [ready] Binding Sockets [ready] Listening...

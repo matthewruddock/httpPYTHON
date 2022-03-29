@@ -16,7 +16,7 @@ class Server:
             blacklistFile = open("httpPYTHON\\log\\blacklistIP.txt","r")
 
             for websites in blacklistFile.readlines():
-                ipList.append(websites)
+                ipList.append(websites.replace('\n',''))
         finally:
             blacklistFile.close()
 
@@ -26,7 +26,8 @@ class Server:
             blacklistFile = open("httpPYTHON\\log\\blacklistURL.txt","r")
 
             for websites in blacklistFile.readlines():
-                urlList.append(websites)
+                #websites.replace('\n','')
+                urlList.append(websites.replace('\n',''))
 
         finally:
             blacklistFile.close()
@@ -117,13 +118,13 @@ class Server:
         if code == 200:
             # Status code
             h = 'HTTP/1.1 200 OK\n'
-            h += 'Server: Jarvis\n'
+            h += 'Server: ASPIRE\n'
 
         elif code == 404:
             # Status code
             h = 'HTTP/1.1 404 Not Found\n'
             h += 'Date: ' + time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime()) + '\n'
-            h += 'Server: Jarvis\n'
+            h += 'Server: ASPIRE\n'
 
         h += 'Content-Length: ' + str(length) + '\n'
         h += 'Connection: close\n\n'
@@ -282,7 +283,7 @@ class Server:
                 # If successful, send 200 code response
                 s.connect((webserver, port))
                 reply = "HTTP/1.0 200 Connection established\r\n"
-                reply += "Proxy-agent: Jarvis\r\n"
+                reply += "Proxy-agent: ASPIRE\r\n"
                 reply += "\r\n"
                 conn.sendall(reply.encode())
             except socket.error as err:
