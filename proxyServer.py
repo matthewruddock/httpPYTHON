@@ -1,4 +1,4 @@
-#Developers:   Matthew Ruddock, Gabrielle Hydol,  Jamahli Mitchell,  Ricardo Barrett
+#Developers:   Matthew Ruddock(1700241), Gabrielle Hydol(1901163),  Jamahli Mitchell,  Ricardo Barrett
 import socket, sys, datetime, time
 from _thread import start_new_thread
 from tkinter import*

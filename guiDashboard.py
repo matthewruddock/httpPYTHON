@@ -1,4 +1,4 @@
-#Developers:   Matthew Ruddock, Gabrielle Hydol,  Jamahli Mitchell,  Ricardo Barrett
+#Developers:   Matthew Ruddock(1700241), Gabrielle Hydol(1901163),  Jamahli Mitchell,  Ricardo Barrett
 from tkinter import*
 from tkinter import messagebox #import messagebox libraryr
 from tkinter import ttk
