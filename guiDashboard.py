@@ -1,10 +1,10 @@
-#Developers:   Matthew Ruddock(1700241), Gabrielle Hydol(1901163),  Jamahli Mitchell(1800994),  Ricardo Barrett
+#Developers:   Matthew Ruddock(1700241), Gabrielle Hydol(1901163),  Jamahli Mitchell(1800994),  Ricardo Barrett(1903452)
+#Class Occurrence: LAB Monday 2PM
 from tkinter import*
 from tkinter import messagebox #import messagebox libraryr
 from tkinter import ttk
 import time, sys, multiprocessing, subprocess
 import proxyServer as ps
-import blacklist
 
 
 def main():
@@ -174,14 +174,14 @@ def enableBlacklistIP():
             for index in blacklistFilter_listbox.curselection():
                 ip.insert(index, blacklistFilter_listbox.get(index))
   
-            blacklistFile = open(".\httpPYTHON\\log\\blacklistIP.txt","w")
+            blacklistFile = open(".\httpPYTHON\\log\\blacklistIP.txt","w")  #open blacklist ip file
             blacklistFile.close()
 
             print("You have selected: ")
            
             for index in ip:
                 print(index)
-                with open(".\httpPYTHON\\log\\blacklistIP.txt","a") as blacklistFile:
+                with open(".\httpPYTHON\\log\\blacklistIP.txt","a") as blacklistFile:   #open blacklist ip file
                     blacklistFile.writelines(index+"\n")
             
             
@@ -240,9 +240,6 @@ def enableBlacklistIP():
         finally:
             blacklistFile.close()
 
-        #blacklistFilter_listbox.insert(1,"facebook")
-        #blacklistFilter_listbox.insert(2,"jamaica-gleaner")
-        #blacklistFilter_listbox.insert(3,"yahoo")
         blacklistFilter_listbox.config(height=blacklistFilter_listbox.size(), width=40)
 
         entryBox = Entry(blacklistFrame, width=20)
@@ -268,16 +265,15 @@ def enableBlacklistURL():
             for index in blacklistFilter_listbox.curselection():
                 websites.insert(index, blacklistFilter_listbox.get(index))
   
-            blacklistFile = open(".\httpPYTHON\\log\\blacklistURL.txt","w")
+            blacklistFile = open(".\httpPYTHON\\log\\blacklistURL.txt","w") #open blacklist url file
             blacklistFile.close()
 
             print("You have selected: ")
            
             for index in websites:
                 print(index)
-                with open(".\httpPYTHON\\log\\blacklistURL.txt","a") as blacklistFile:
+                with open(".\httpPYTHON\\log\\blacklistURL.txt","a") as blacklistFile:  #open blacklist url file
                     blacklistFile.writelines(index+"\n")
-            #blacklist.main
 
             messagebox.showwarning(title='Blacklist Status', message='Blacklist URL filter has been Updated')
 
@@ -335,9 +331,6 @@ def enableBlacklistURL():
         finally:
             blacklistFile.close()
 
-        #blacklistFilter_listbox.insert(1,"facebook")
-        #blacklistFilter_listbox.insert(2,"jamaica-gleaner")
-        #blacklistFilter_listbox.insert(3,"yahoo")
         blacklistFilter_listbox.config(height=blacklistFilter_listbox.size(), width=40)
 
         entryBox = Entry(blacklistFrame, width=20)
@@ -379,7 +372,7 @@ def netowrkTrafficData():
         networkTrafficText['yscrollcommand'] = scrollbarVertical.set
 
         try:
-            logFile = open(".\httpPYTHON\\log\\proxyServerLog.txt","r")
+            logFile = open(".\httpPYTHON\\log\\proxyServerLog.txt","r") #open proxy sever log file
 
             for logLine in logFile.readlines():
                 networkTrafficText.insert('1.0',logLine)

@@ -1,3 +1,10 @@
+#Developers:   Matthew Ruddock(1700241), Gabrielle Hydol(1901163),  Jamahli Mitchell(1800994),  Ricardo Barrett(1903452)
+#Class Occurrence: LAB Monday 2PM
+
+KNOWN BUGS: - Dashbaord GUI crashes when trying to close, after running Server.
+            - Login GUI is prompt twice after running Server
+            - Blacklisting works by entering www.(webstite).com .. For example, www.yahoo.com or www.jamaica-gleaner.com
+
 Go to Web Browser (Recommended FireFox):
     - Go to Network settings
     - Enter 127.0.0.1 in HTTP Proxy
@@ -29,6 +36,3 @@ Entering Blacklist IP Filter
 
 NOTE: Server has to be stopped by using "Ctrl + C" in the terminal.
 
-KNOWN BUGS: - Dashbaord GUI crashes when trying to close, after running Server.
-            - Login GUI is prompt twice after running Server
-            - Blacklisting works by entering www.(webstite).com .. For example, www.yahoo.com or www.jamaica-gleaner.com

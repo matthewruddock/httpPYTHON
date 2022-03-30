@@ -1,4 +1,5 @@
-#Developers:   Matthew Ruddock(1700241), Gabrielle Hydol(1901163),  Jamahli Mitchell(1800994),  Ricardo Barrett
+#Developers:   Matthew Ruddock(1700241), Gabrielle Hydol(1901163),  Jamahli Mitchell(1800994),  Ricardo Barrett(1903452)
+#Class Occurrence: LAB Monday 2PM
 from tkinter import*
 from tkinter import messagebox #import messagebox library
 import guiDashboard as db
