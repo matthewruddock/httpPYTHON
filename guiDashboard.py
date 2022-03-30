@@ -18,6 +18,10 @@ def main():
         messagebox.showinfo(title='Info', 
                             message='         Copyright to ASIPIRE \n\n               March 31, 2022 \n\n                 Made by: \n\n           Matthew Ruddock,\n            Gabrielle Hydol, \n            Jamahli Mitchell,\n            Ricardo Barrett')
 
+    def closeGUI():
+        time.sleep(0.5)
+        sys.exit(0)
+
     ######WINDOW######
 
     #Window for Dashboard
@@ -53,7 +57,7 @@ def main():
     menubar.add_cascade(label="File", menu=fileMenu)
 
     fileMenu.add_command(label="Info",command=infoMenu, image=infoImage, compound='right')
-    fileMenu.add_command(label="Exit ", command=sys.exit, image=exitImage, compound='right')
+    fileMenu.add_command(label="Exit ", command=closeGUI, image=exitImage, compound='right')
 
 
 
@@ -380,7 +384,6 @@ def netowrkTrafficData():
             logFile.close()
         
         networkTrafficWindow.mainloop() #place window on computer screen, listen for events
-
         
 
 if __name__ == "__main__":

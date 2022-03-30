@@ -76,10 +76,11 @@ class Server:
             sys.exit(0)
 
     # Function which stops the server
-    def stop_server(self, conn=5, buffer=4096, port=8000):
+    def stop_server(self):
         print(self.getTimeStampp() + "   Stopping Server...")
         self.write_log(self.getTimeStampp() + "   Stopping Server")
-        os._exit()
+        time.sleep(.5)
+        sys.exit(0)
 
     # Listener for incoming connections
     def listen(self, No_of_conn, buffer, port):
