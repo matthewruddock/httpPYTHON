@@ -2620,3 +2620,392 @@ Starting Server
 
 
 [2022-03-29 10:28:10]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 23:06:58]   
+
+Starting Server
+
+
+[2022-03-29 23:06:58]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 23:07:03]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53592
+[2022-03-29 23:07:03]   HTTP Connection request
+[2022-03-29 23:07:03]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53595
+[2022-03-29 23:07:03]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53598
+[2022-03-29 23:07:04]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53600
+[2022-03-29 23:07:04]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53601
+[2022-03-29 23:07:04]   HTTP Connection request
+[2022-03-29 23:07:04]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'r3.o.lencr.org'
+[2022-03-29 23:07:04]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53604
+[2022-03-29 23:07:04]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_r3_o_lencr_org'
+[2022-03-29 23:07:04]   HTTP Connection request
+[2022-03-29 23:07:04]   HTTP Connection request
+[2022-03-29 23:07:04]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:07:04]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:04]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:04]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:04]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:07:04]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:04]   HTTP Connection request
+[2022-03-29 23:07:04]   HTTPS Connection request
+[2022-03-29 23:07:05]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:05]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:05]  HTTPS Connection Established
+[2022-03-29 23:07:05]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53617
+[2022-03-29 23:07:05]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53618
+[2022-03-29 23:07:06]   HTTP Connection request
+[2022-03-29 23:07:06]   HTTP Connection request
+[2022-03-29 23:07:07]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:07]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:07]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:07]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:07]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53623
+[2022-03-29 23:07:07]   HTTP Connection request
+[2022-03-29 23:07:08]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:08]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:09]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53627
+[2022-03-29 23:07:09]   HTTP Connection request
+[2022-03-29 23:07:09]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'self.adblockultimate.net'
+[2022-03-29 23:07:09]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_self_adblockultimate_netk'
+[2022-03-29 23:07:09]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53641
+[2022-03-29 23:07:09]   HTTP Connection request
+[2022-03-29 23:07:09]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sca1b.amazontrust.com'
+[2022-03-29 23:07:10]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sca1b_amazontrust_com'
+[2022-03-29 23:07:12]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53654
+[2022-03-29 23:07:12]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53655
+[2022-03-29 23:07:12]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53656
+[2022-03-29 23:07:12]   HTTP Connection request
+7.0.0.1 AT PORT: 53658
+[2022-03-29 23:07:12]   HTTP Connection request
+[2022-03-29 23:07:12]   HTTP Connection request
+[2022-03-29 23:07:13]   HTTP Connection request
+[2022-03-29 23:07:13]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:07:13]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:07:13]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sca1b.amazontrust.com'
+[2022-03-29 23:07:13]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:07:13]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:07:13]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53662
+[2022-03-29 23:07:13]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+b'cache/_ocsp_sca1b_amazontrust_com'
+[2022-03-29 23:07:13]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53664
+[2022-03-29 23:07:13]   HTTP Connection request
+Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:07:13]   HTTP Connection request
+[2022-03-29 23:07:13]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:07:13]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:07:13]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:07:14]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:07:38]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53675
+[2022-03-29 23:07:38]   HTTP Connection request
+[2022-03-29 23:07:38]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:39]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:57]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53712
+[2022-03-29 23:07:57]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53713
+[2022-03-29 23:07:57]   HTTP Connection request
+[2022-03-29 23:07:57]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53717
+[2022-03-29 23:07:57]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:07:57]   HTTP Connection request
+[2022-03-29 23:07:58]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:07:58]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:58]   HTTP Connection request
+[2022-03-29 23:07:58]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:58]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53727
+.pki.goog'
+[2022-03-29 23:07:58]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53729
+[2022-03-29 23:07:58]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:07:58]   HTTP Connection request
+[2022-03-29 23:07:58]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53733
+[2022-03-29 23:07:59]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53734
+[2022-03-29 23:07:59]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53736
+[2022-03-29 23:07:59]   HTTP Connection request
+[2022-03-29 23:07:59]   HTTP Connection request
+[2022-03-29 23:07:59]   HTTP Connection request
+[2022-03-29 23:07:59]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:59]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:59]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:07:59]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:59]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:07:59]   HTTP Connection request
+[2022-03-29 23:07:59]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sectigo.com'
+[2022-03-29 23:07:59]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53747
+[2022-03-29 23:07:59]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 53748
+[2022-03-29 23:07:59]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:07:59]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:07:59]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sectigo_com'
+[2022-03-29 23:07:59]   HTTP Connection request
+[2022-03-29 23:07:59]   HTTP Connection request
+[2022-03-29 23:07:59]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:07:59]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:07:59]   HTTP Connection request
+[2022-03-29 23:08:00]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:08:00]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:08:00]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:08:00]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:08:00]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:29]   
+
+Starting Server
+
+
+[2022-03-29 23:51:29]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 23:51:31]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58914
+[2022-03-29 23:51:31]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58916
+[2022-03-29 23:51:31]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58918
+[2022-03-29 23:51:32]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58921
+[2022-03-29 23:51:32]   HTTP Connection request
+[2022-03-29 23:51:31]   HTTP Connection request
+[2022-03-29 23:51:32]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58922
+[2022-03-29 23:51:32]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58925
+[2022-03-29 23:51:32]   HTTPS Connection request
+[2022-03-29 23:51:32]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:51:32]   HTTP Connection request
+[2022-03-29 23:51:32]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'r3.o.lencr.org'
+[2022-03-29 23:51:32]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_r3_o_lencr_org'
+[2022-03-29 23:51:32]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:51:32]  HTTPS Connection Established
+[2022-03-29 23:51:32]   HTTP Connection request
+[2022-03-29 23:51:32]   HTTP Connection request
+[2022-03-29 23:51:32]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:51:32]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58931
+[2022-03-29 23:51:32]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:51:32]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:51:32]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:32]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:32]   HTTP Connection request
+[2022-03-29 23:51:33]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:51:33]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:51:35]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58942
+[2022-03-29 23:51:35]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58943
+[2022-03-29 23:51:35]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58944
+[2022-03-29 23:51:35]   HTTP Connection request
+[2022-03-29 23:51:35]   HTTP Connection request
+[2022-03-29 23:51:36]   HTTP Connection request
+[2022-03-29 23:51:36]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:36]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:36]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:51:36]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58950
+[2022-03-29 23:51:36]   HTTP Connection request
+[2022-03-29 23:51:36]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:51:36]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:36]   HTTP Connection request
+[2022-03-29 23:51:36]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:36]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58952
+[2022-03-29 23:51:36]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:36]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58963
+[2022-03-29 23:51:37]   HTTP Connection request
+[2022-03-29 23:51:37]   HTTP Connection request
+[2022-03-29 23:51:37]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:37]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sca1b.amazontrust.com'
+[2022-03-29 23:51:37]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:37]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58966
+[2022-03-29 23:51:37]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:37]   HTTP Connection request
+[2022-03-29 23:51:36]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'self.adblockultimate.net'
+[2022-03-29 23:51:37]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sca1b_amazontrust_com'
+[2022-03-29 23:51:37]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:37]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_self_adblockultimate_netk'
+[2022-03-29 23:51:37]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58970
+[2022-03-29 23:51:37]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58972
+[2022-03-29 23:51:37]   HTTP Connection request
+[2022-03-29 23:51:37]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:37]   HTTP Connection request
+[2022-03-29 23:51:38]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'self.adblockultimate.net'
+[2022-03-29 23:51:38]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:51:38]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_self_adblockultimate_netk'
+[2022-03-29 23:51:38]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:51:49]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58984
+[2022-03-29 23:51:49]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 58985
+[2022-03-29 23:51:49]   HTTP Connection request
+[2022-03-29 23:51:49]   HTTP Connection request
+[2022-03-29 23:51:49]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:49]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:51:49]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:49]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:51:50]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59001
+[2022-03-29 23:51:50]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59002
+[2022-03-29 23:51:51]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59009
+[2022-03-29 23:51:51]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59010
+[2022-03-29 23:51:51]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59012
+[2022-03-29 23:51:50]   HTTP Connection request
+[2022-03-29 23:51:51]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59015
+[2022-03-29 23:51:50]   HTTP Connection request
+[2022-03-29 23:51:51]   HTTP Connection request
+[2022-03-29 23:51:51]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:51]   HTTP Connection request
+[2022-03-29 23:51:51]   HTTP Connection request
+[2022-03-29 23:51:51]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:51]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:51]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:51]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:51]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:51:51]   HTTP Connection request
+[2022-03-29 23:51:51]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:51]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:51]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:52]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:52]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:51:52]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59026
+[2022-03-29 23:51:52]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59027
+[2022-03-29 23:51:51]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:52]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59030
+[2022-03-29 23:51:52]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59031
+[2022-03-29 23:51:52]   HTTP Connection request
+[2022-03-29 23:51:52]   HTTP Connection request
+[2022-03-29 23:51:52]   HTTP Connection request
+[2022-03-29 23:51:53]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:53]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:53]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:51:53]   HTTP Connection request
+[2022-03-29 23:51:53]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:53]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:53]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:53]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59046
+[2022-03-29 23:51:53]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:51:53]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:53]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59048
+[2022-03-29 23:51:53]   HTTP Connection request
+[2022-03-29 23:51:53]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:51:53]   HTTP Connection request
+[2022-03-29 23:51:53]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:51:54]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:51:54]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:53:31]   
+
+Starting Server
+
+
+[2022-03-29 23:53:31]   Initializing Sockets [ready] Binding Sockets [ready] Listening...
+[2022-03-29 23:53:31]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59206
+[2022-03-29 23:53:31]   HTTP Connection request
+[2022-03-29 23:53:31]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:53:31]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59205
+[2022-03-29 23:53:32]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:53:32]   HTTP Connection request
+[2022-03-29 23:53:32]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:53:32]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:53:32]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59211
+[2022-03-29 23:53:32]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59212
+[2022-03-29 23:53:32]   HTTP Connection request
+[2022-03-29 23:53:32]   HTTPS Connection request
+[2022-03-29 23:53:32]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:53:33]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:54:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59253
+[2022-03-29 23:54:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59254
+[2022-03-29 23:54:00]   HTTP Connection request
+[2022-03-29 23:54:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59255
+[2022-03-29 23:54:00]   HTTP Connection request
+[2022-03-29 23:54:00]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:54:00]   HTTP Connection request
+[2022-03-29 23:54:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:54:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:54:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.digicert.com'
+[2022-03-29 23:54:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_digicert_com'
+[2022-03-29 23:54:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:54:01]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59260
+[2022-03-29 23:54:01]   HTTP Connection request
+[2022-03-29 23:54:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'yahoo.com'
+[2022-03-29 23:54:02]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_yahoo_com'
+[2022-03-29 23:54:19]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59270
+[2022-03-29 23:54:20]   HTTP Connection request
+[2022-03-29 23:54:20]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sectigo.com'
+[2022-03-29 23:54:20]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sectigo_com'
+[2022-03-29 23:54:22]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59293
+[2022-03-29 23:54:22]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59294
+[2022-03-29 23:54:22]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59295
+[2022-03-29 23:54:22]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59296
+[2022-03-29 23:54:22]   HTTP Connection request
+[2022-03-29 23:54:22]   HTTP Connection request
+[2022-03-29 23:54:23]   HTTP Connection request
+[2022-03-29 23:54:23]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:54:22]   HTTP Connection request
+[2022-03-29 23:54:23]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:54:23]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sectigo.com'
+[2022-03-29 23:54:23]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:54:23]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:54:23]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:54:23]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sectigo_com'
+[2022-03-29 23:54:23]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:54:23]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59310
+[2022-03-29 23:54:23]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59314
+[2022-03-29 23:54:23]   HTTP Connection request
+[2022-03-29 23:54:24]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59320
+[2022-03-29 23:54:24]   HTTP Connection request
+[2022-03-29 23:54:24]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:54:24]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:54:24]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59331
+[2022-03-29 23:54:24]   HTTP Connection request
+[2022-03-29 23:54:24]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:54:24]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:54:24]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59335
+[2022-03-29 23:54:25]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59339
+[2022-03-29 23:54:24]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sectigo.com'
+[2022-03-29 23:54:25]   HTTP Connection request
+[2022-03-29 23:54:25]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sectigo_com'
+[2022-03-29 23:54:25]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59341
+[2022-03-29 23:54:25]   HTTP Connection request
+[2022-03-29 23:54:25]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sca1b.amazontrust.com'
+[2022-03-29 23:54:25]   HTTP Connection request
+[2022-03-29 23:54:25]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sca1b.amazontrust.com'
+[2022-03-29 23:54:25]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.pki.goog'
+[2022-03-29 23:54:25]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sca1b_amazontrust_com'
+[2022-03-29 23:54:25]   HTTP Connection request
+[2022-03-29 23:54:25]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59353
+[2022-03-29 23:54:25]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_pki_googgts1c3'
+[2022-03-29 23:54:25]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sca1b_amazontrust_com'
+[2022-03-29 23:54:25]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sectigo.com'
+[2022-03-29 23:54:25]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sectigo_com'
+[2022-03-29 23:54:25]   HTTP Connection request
+[2022-03-29 23:54:25]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'ocsp.sca1b.amazontrust.com'
+[2022-03-29 23:54:26]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_ocsp_sca1b_amazontrust_com'
+[2022-03-29 23:54:47]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59376
+[2022-03-29 23:54:47]   HTTP Connection request
+[2022-03-29 23:54:47]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'jamaica-gleaner.com'
+[2022-03-29 23:54:47]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_jamaica-gleaner_com'
+[2022-03-29 23:55:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59399
+[2022-03-29 23:55:00]   Website Blacklisted
+[2022-03-29 23:55:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59400
+[2022-03-29 23:55:00]   HTTP Connection request
+[2022-03-29 23:55:00]   Website Blacklisted
+[2022-03-29 23:55:00]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59402
+[2022-03-29 23:55:00]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'
+[2022-03-29 23:55:00]   Website Blacklisted
+[2022-03-29 23:55:00]   HTTP Connection request
+[2022-03-29 23:55:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59404
+[2022-03-29 23:55:00]   Website Blacklisted
+[2022-03-29 23:55:00]   HTTP Connection request
+[2022-03-29 23:55:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59406
+[2022-03-29 23:55:00]   Website Blacklisted
+[2022-03-29 23:55:00]   HTTP Connection request
+[2022-03-29 23:55:00]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:00]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59408
+[2022-03-29 23:55:00]   Website Blacklisted
+[2022-03-29 23:55:00]   HTTP Connection request
+[2022-03-29 23:55:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59410
+[2022-03-29 23:55:00]   HTTP Connection request
+[2022-03-29 23:55:00]   Website Blacklisted
+[2022-03-29 23:55:00]   HTTP Connection request
+[2022-03-29 23:55:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59413
+[2022-03-29 23:55:00]   Website Blacklisted
+[2022-03-29 23:55:00]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59415
+[2022-03-29 23:55:00]   HTTP Connection request
+[2022-03-29 23:55:01]   Website Blacklisted
+[2022-03-29 23:55:01]   HTTP Connection request
+[2022-03-29 23:55:01]   REQUEST RECEIVED FROM: 127.0.0.1 AT PORT: 59416
+[2022-03-29 23:55:01]   Website Blacklisted
+[2022-03-29 23:55:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'
+[2022-03-29 23:55:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'
+[2022-03-29 23:55:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'
+[2022-03-29 23:55:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'
+[2022-03-29 23:55:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'
+[2022-03-29 23:55:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'
+[2022-03-29 23:55:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'
+[2022-03-29 23:55:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'
+[2022-03-29 23:55:01]   HTTP Connection request
+[2022-03-29 23:55:01]  FORWARDING REQUEST FROM 127.0.0.1 TO HOST...b'www.jamaica-gleaner.com'
+[2022-03-29 23:55:01]  ERROR: FORWARD REQUEST...[Errno 2] No such file or directory: b'cache/_www_jamaica-gleaner_com'

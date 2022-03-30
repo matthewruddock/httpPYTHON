@@ -36,14 +36,14 @@ def infoMenu():
 loginWindow = Tk() #instantiate an instance of a window
 loginWindow.geometry("550x400") #size of window
 loginWindow.title("ASPIRE HTTP PROXY") # set title of window
-windowIconImage = PhotoImage(file='httpPYTHON\\imgs\\server.png') #creates window icon
+windowIconImage = PhotoImage(file='.\httpPYTHON\\imgs\\server.png') #creates window icon
 loginWindow.iconphoto(True,windowIconImage) #sets window icon
 loginWindow.config(background="light blue") #sets background color for window...can use hex value as well
 
 ######IMAGES######
-infoImage = PhotoImage(file="httpPYTHON\\imgs\\info.png")
-exitImage = PhotoImage(file="httpPYTHON\\imgs\\exit.png")
-programImage = PhotoImage(file="httpPYTHON\\imgs\\server.png")
+infoImage = PhotoImage(file=".\httpPYTHON\\imgs\\info.png")
+exitImage = PhotoImage(file=".\httpPYTHON\\imgs\\exit.png")
+programImage = PhotoImage(file=".\httpPYTHON\\imgs\\server.png")
 
 
 ######MENU BAR######

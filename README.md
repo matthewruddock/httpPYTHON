@@ -26,3 +26,9 @@ Entering Blacklist IP Filter
     - To add the IP ADDRESS to the blacklist, enter only the IP ADDRESS. The followng are not allowed: www, net, com, org
     - To delete the IP ADDRESS, select the IP ADDRESS and click the "Delete" button.
     - To submit the IP ADDRESS, select all the IP ADDRESS and click the "Submit" button.
+
+NOTE: Server has to be stopped by using "Ctrl + C" in the terminal.
+
+KNOWN BUGS: - Dashbaord GUI crashes when trying to close, after running Server.
+            - Login GUI is prompt twice after running Server
+            - Blacklisting works by entering www.(webstite).com .. For example, www.yahoo.com or www.jamaica-gleaner.com

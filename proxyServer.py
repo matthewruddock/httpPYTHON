@@ -9,12 +9,12 @@ import multiprocessing
 class Server:
 
     # Constructors initializing basic architecture
-    def __init__(self): #def __init__(self, blacklisted_ips=False, blacklist_websites=False):
+    def __init__(self):
         time.sleep(1)
         #get IP list
         ipList = []
         try:
-            blacklistFile = open("httpPYTHON\\log\\blacklistIP.txt","r")
+            blacklistFile = open(".\httpPYTHON\\log\\blacklistIP.txt","r")
 
             for websites in blacklistFile.readlines():
                 ipList.append(websites.replace('\n',''))
@@ -24,10 +24,9 @@ class Server:
         #get url List
         urlList= []
         try:
-            blacklistFile = open("httpPYTHON\\log\\blacklistURL.txt","r")
+            blacklistFile = open(".\httpPYTHON\\log\\blacklistURL.txt","r")
 
             for websites in blacklistFile.readlines():
-                #websites.replace('\n','')
                 urlList.append(websites.replace('\n',''))
 
         finally:
@@ -44,7 +43,6 @@ class Server:
         self.blacklisted_ip_lookup = ipList
         self.blacklist_websites_lookup = urlList
 
-        #self.start_server()
         startProcess = multiprocessing.Process(target=self.start_server)
         startProcess.start()
         #threading.Thread(target=self.start_server()).start()
@@ -52,7 +50,7 @@ class Server:
 
     # Function to write log
     def write_log(self, msg):
-        with open("httpPYTHON\\log\\proxyServerLog.txt", "a+") as file:
+        with open(".\httpPYTHON\\log\\proxyServerLog.txt", "a+") as file:
             file.write(msg)
             file.write("\n")
 
@@ -93,8 +91,8 @@ class Server:
                 self.getTimeStampp() + "   Initializing Sockets [ready] Binding Sockets [ready] Listening...")
 
         except:
-            print(self.getTimeStampp() + "   Error: Cannot start listening...")
-            self.write_log(self.getTimeStampp() + "   Error: Cannot start listening...")
+            print(self.getTimeStampp() + "   ERROR: CANNOT START LISTENING...")
+            self.write_log(self.getTimeStampp() + "   ERROR: CANNOT START LISTENING...")
             sys.exit(1)
 
         while True:
@@ -103,13 +101,13 @@ class Server:
                 conn, addr = s.accept()
                 # print(self.getTimeStampp() + "   Request received from: ", addr)
                 self.write_log(
-                    self.getTimeStampp() + "   Request received from: " + addr[0] + " at port: " + str(addr[1]))
+                    self.getTimeStampp() + "   REQUEST RECEIVED FROM: " + addr[0] + " AT PORT: " + str(addr[1]))
                 start_new_thread(self.connection_read_request, (conn, addr, buffer))
                 
 
             except Exception as e:
-                print(self.getTimeStampp() + "  Error: Cannot establish connection..." + str(e))
-                self.write_log(self.getTimeStampp() + "  Error: Cannot establish connection..." + str(e))
+                print(self.getTimeStampp() + "  ERROR: CANNOT ESTABLISH CONNECTION..." + str(e))
+                self.write_log(self.getTimeStampp() + "  ERROR: CANNOT ESTABLISH CONNECTION..." + str(e))
                 sys.exit(1)
             #s.close()
 
@@ -128,7 +126,7 @@ class Server:
             h += 'Server: ASPIRE\n'
 
         h += 'Content-Length: ' + str(length) + '\n'
-        h += 'Connection: close\n\n'
+        h += 'Connection: CLOSE\n\n'
 
         return h
 
@@ -213,10 +211,10 @@ class Server:
 
         # Trying to find in cache
         try:
-            print(self.getTimeStampp() + "  Searching for: ", requested_file)
-            print(self.getTimeStampp() + "  Cache Hit")
+            #print(self.getTimeStampp() + "  SEARCHING FOR: ", requested_file)
+            #print(self.getTimeStampp() + "  CACHE HIT")
             file_handler = open(b"cache/" + requested_file, 'rb')
-            self.write_log(self.getTimeStampp() + "  Cache Hit")
+            #self.write_log(self.getTimeStampp() + "  CACHE HIT")
             response_content = file_handler.read()
             file_handler.close()
             response_headers = self.generate_header_lines(200, len(response_content))
@@ -233,9 +231,9 @@ class Server:
                 s.connect((webserver, port))
                 s.send(request)
 
-                print(self.getTimeStampp() + "  Forwarding request from ", addr, " to ", webserver)
+                print(self.getTimeStampp() + "  FORWARDING REQUEST FROM ", addr, " TO ", webserver)
                 self.write_log(
-                    self.getTimeStampp() + "  Forwarding request from " + addr[0] + " to host..." + str(webserver))
+                    self.getTimeStampp() + "  FORWARDING REQUEST FROM " + addr[0] + " TO HOST..." + str(webserver))
                 # Makefile for socket
                 file_object = s.makefile('wb', 0)
                 file_object.write(b"GET " + b"http://" + requested_file + b" HTTP/1.0\n\n")
@@ -247,14 +245,14 @@ class Server:
                     temp_file.write(buff[i])
                     conn.send(buff[i])
 
-                print(self.getTimeStampp() + "  Request of client " + str(addr) + " completed...")
-                self.write_log(self.getTimeStampp() + "  Request of client " + str(addr[0]) + " completed...")
+                print(self.getTimeStampp() + "  REQUEST OF CLIENT " + str(addr) + " COMPLETED...")
+                self.write_log(self.getTimeStampp() + "  REQUEST OF CLIENT " + str(addr[0]) + " COMPLETED...")
                 s.close()
                 conn.close()
 
             except Exception as e:
-                print(self.getTimeStampp() + "  Error: forward request..." + str(e))
-                self.write_log(self.getTimeStampp() + "  Error: forward request..." + str(e))
+                print(self.getTimeStampp() + "  ERROR: FORWARD REQUEST..." + str(e))
+                self.write_log(self.getTimeStampp() + "  ERROR: FORWARD REQUEST..." + str(e))
                 return
 
     # Function to handle HTTPS Connection
@@ -267,8 +265,8 @@ class Server:
             print(self.getTimeStampp() + "  Searching for: ", requested_file)
             file_handler = open(b"cache/" + requested_file, 'rb')
             print("\n")
-            print(self.getTimeStampp() + "  Cache Hit\n")
-            self.write_log(self.getTimeStampp() + "  Cache Hit\n")
+            print(self.getTimeStampp() + "  CACHE HIT\n")
+            self.write_log(self.getTimeStampp() + "   CACHE HIT\n")
             response_content = file_handler.read()
             file_handler.close()
             response_headers = self.generate_header_lines(200, len(response_content))

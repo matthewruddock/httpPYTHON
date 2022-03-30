@@ -4,6 +4,7 @@ from tkinter import messagebox #import messagebox libraryr
 from tkinter import ttk
 import time, sys, multiprocessing, subprocess
 import proxyServer as ps
+import blacklist
 
 
 def main():
@@ -24,21 +25,21 @@ def main():
     dashboardWindow.geometry("800x500") #size of window
     dashboardWindow.title("ASPIRE HTTP PROXY") # set title of window
     dashboardWindow.resizable(width=False, height=False)
-    windowIconImage = PhotoImage(file='httpPYTHON\\imgs\\server.png') #creates window icon
+    windowIconImage = PhotoImage(file='.\httpPYTHON\\imgs\\server.png') #creates window icon
     dashboardWindow.iconphoto(True,windowIconImage) #sets window icon
     dashboardWindow.config(background="light blue",borderwidth=5, relief="solid") #sets background color for window...can use hex value as well
 
 
     ######IMAGES######
-    infoImage = PhotoImage(file="httpPYTHON\\imgs\\info.png")
-    exitImage = PhotoImage(file="httpPYTHON\\imgs\\exit.png")
-    programImage = PhotoImage(file="httpPYTHON\\imgs\\server.png")
-    startServerImage = PhotoImage(file="httpPYTHON\\imgs\\server_online.png")
-    stopServerImage = PhotoImage(file="httpPYTHON\\imgs\\server_shutdown.png")
-    monitoringImage = PhotoImage(file="httpPYTHON\\imgs\\monitoring.png")
-    BlacklistImage = PhotoImage(file="httpPYTHON\\imgs\\lock_50.png")
-    BlacklistIpImage = PhotoImage(file="httpPYTHON\\imgs\\iplock_50.png")
-    BackgroundImage = PhotoImage(file="httpPYTHON\\imgs\\b1.png",)
+    infoImage = PhotoImage(file=".\httpPYTHON\\imgs\\info.png")
+    exitImage = PhotoImage(file=".\httpPYTHON\\imgs\\exit.png")
+    programImage = PhotoImage(file=".\httpPYTHON\\imgs\\server.png")
+    startServerImage = PhotoImage(file=".\httpPYTHON\\imgs\\server_online.png")
+    stopServerImage = PhotoImage(file=".\httpPYTHON\\imgs\\server_shutdown.png")
+    monitoringImage = PhotoImage(file=".\httpPYTHON\\imgs\\monitoring.png")
+    BlacklistImage = PhotoImage(file=".\httpPYTHON\\imgs\\lock_50.png")
+    BlacklistIpImage = PhotoImage(file=".\httpPYTHON\\imgs\\iplock_50.png")
+    BackgroundImage = PhotoImage(file=".\httpPYTHON\\imgs\\b1.png",)
 
 
 
@@ -173,15 +174,17 @@ def enableBlacklistIP():
             for index in blacklistFilter_listbox.curselection():
                 ip.insert(index, blacklistFilter_listbox.get(index))
   
-            blacklistFile = open("httpPYTHON\\log\\blacklistIP.txt","w")
+            blacklistFile = open(".\httpPYTHON\\log\\blacklistIP.txt","w")
             blacklistFile.close()
 
             print("You have selected: ")
            
             for index in ip:
                 print(index)
-                with open("httpPYTHON\\log\\blacklistIP.txt","a") as blacklistFile:
+                with open(".\httpPYTHON\\log\\blacklistIP.txt","a") as blacklistFile:
                     blacklistFile.writelines(index+"\n")
+            
+            
 
             messagebox.showwarning(title='Blacklist Status', message='Blacklist IP Filter has been Updated')
 
@@ -229,7 +232,7 @@ def enableBlacklistIP():
 
         #Default listings
         try:
-            blacklistFile = open("httpPYTHON\\log\\blacklistIP.txt","r")
+            blacklistFile = open(".\httpPYTHON\\log\\blacklistIP.txt","r")
 
             for ip in blacklistFile.readlines():
                 print(ip)
@@ -265,15 +268,16 @@ def enableBlacklistURL():
             for index in blacklistFilter_listbox.curselection():
                 websites.insert(index, blacklistFilter_listbox.get(index))
   
-            blacklistFile = open("httpPYTHON\\log\\blacklistURL.txt","w")
+            blacklistFile = open(".\httpPYTHON\\log\\blacklistURL.txt","w")
             blacklistFile.close()
 
             print("You have selected: ")
            
             for index in websites:
                 print(index)
-                with open("httpPYTHON\\log\\blacklistURL.txt","a") as blacklistFile:
+                with open(".\httpPYTHON\\log\\blacklistURL.txt","a") as blacklistFile:
                     blacklistFile.writelines(index+"\n")
+            #blacklist.main
 
             messagebox.showwarning(title='Blacklist Status', message='Blacklist URL filter has been Updated')
 
@@ -322,7 +326,7 @@ def enableBlacklistURL():
 
         #Default listings
         try:
-            blacklistFile = open("httpPYTHON\\log\\blacklistURL.txt","r")
+            blacklistFile = open(".\httpPYTHON\\log\\blacklistURL.txt","r")
 
             for websites in blacklistFile.readlines():
                 print(websites)
@@ -375,7 +379,7 @@ def netowrkTrafficData():
         networkTrafficText['yscrollcommand'] = scrollbarVertical.set
 
         try:
-            logFile = open("httpPYTHON\\log\\proxyServerLog.txt","r")
+            logFile = open(".\httpPYTHON\\log\\proxyServerLog.txt","r")
 
             for logLine in logFile.readlines():
                 networkTrafficText.insert('1.0',logLine)
